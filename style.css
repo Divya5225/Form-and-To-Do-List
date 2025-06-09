@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+input {
+    width: 100%;
+    padding: 7px;
+    margin: 1px;
+    box-sizing: border-box;
+    border: grey ;
+    border-radius: 4px;
+
+}
+
+
+
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 22px;
+    border: 1px solid #c34f4f;
+    border-radius: 10px;
+    background-color: rgb(241, 227, 227);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    margin-bottom: 10px;
+
+}
+
+
+#task-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #c34f4f;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+    color: #e01414;
+}
+
+button.delete {
+    background-color: #f44336;
+}
+
+button.complete {
+    background-color: #2196F3;
+}
